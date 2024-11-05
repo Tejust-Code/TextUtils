@@ -1,6 +1,6 @@
 {
   "homepage": "https://TejustCode.github.io/TextUtils",
-  "name": "my-app",
+  "name": "TextUtils",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
