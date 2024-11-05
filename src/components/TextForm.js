@@ -62,8 +62,6 @@ export default function TextForm(props) {
                         rows="8"
                     ></textarea>
                 </div>
-
-                {/* Responsive Button Container */}
                 <div className="row g-2">
                     <div className="col-12 col-md-4">
                         <button className='btn btn-primary w-100' onClick={handleUpClick}>Uppercase</button>
