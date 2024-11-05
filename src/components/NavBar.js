@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
-import Icon from './../Assets/favicon1.png'
 // import { Link, useLocation } from 'react-router-dom'
 
 const NavBar = (props) => {
