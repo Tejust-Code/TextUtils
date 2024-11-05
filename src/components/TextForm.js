@@ -70,7 +70,7 @@ export default function TextForm(props) {
                         <button className='btn btn-primary w-100' onClick={handleLowClick}>Lowercase</button>
                     </div>
                     <div className="col-12 col-md-4">
-                        <button className='btn btn-primary w-100' onClick={handlePascal}>Startcase</button>
+                        <button className='btn btn-primary w-100' onClick={handlePascal}>Start case</button>
                     </div>
                     <div className="col-12 col-md-4">
                         <button className='btn btn-primary w-100' onClick={handleCopy}>Copy Text</button>
