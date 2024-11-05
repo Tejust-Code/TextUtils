@@ -50,35 +50,25 @@ export default function TextForm(props) {
             <div className='container my-5'>
                 <h3 style={{color: props.mode === 'black' ? 'white' : 'black'}}>{props.heading}</h3>
                 <div className="mb-3">
-                    <textarea
-                        className="form-control border border-1 border-primary"
-                        value={text}
-                        onChange={handleOnChange}
-                        style={{
-                            backgroundColor: props.mode === 'black' ? '#000421' : 'white',
-                            color: props.mode === 'black' ? 'white' : 'black',
-                        }}
-                        id="mybox"
-                        rows="8"
-                    ></textarea>
+                    <textarea className="form-control border border-1 border-primary" value={text} onChange={handleOnChange} style={{backgroundColor: props.mode === 'black' ? '#000421' : 'white',color: props.mode === 'black' ? 'white' : 'black',}} id="mybox" rows="8"></textarea>
                 </div>
                 <div className="row g-2">
-                    <div className="col-12 col-md-4">
+                    <div className="col-6 col-md-4">
                         <button className='btn btn-primary w-100' onClick={handleUpClick}>Uppercase</button>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-6 col-md-4">
                         <button className='btn btn-primary w-100' onClick={handleLowClick}>Lowercase</button>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-6 col-md-4">
                         <button className='btn btn-primary w-100' onClick={handlePascal}>Start case</button>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-6 col-md-4">
                         <button className='btn btn-primary w-100' onClick={handleCopy}>Copy Text</button>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-6 col-md-4">
                         <button className='btn btn-primary w-100' onClick={handleClearClick}>Clear Text</button>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-6 col-md-4">
                         <button className='btn btn-primary w-100' onClick={handleExtraSpaces}>Remove Extra Spaces</button>
                     </div>
                 </div>
